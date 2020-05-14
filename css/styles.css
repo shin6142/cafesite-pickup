@@ -1,0 +1,224 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+  font-family: 'Noto Sans Japanese', 'Lato' , YuGothic, '游ゴシック',"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.clear {
+  clear: both;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.section {
+  margin-bottom: 100px;
+}
+
+.section .heading2 {
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.section .heading2 h2 {
+  margin: 0;
+}
+
+.section .heading2 p {
+  margin: 0;
+}
+
+.top {
+  background-color: black;
+}
+
+header {
+  background-color: black;
+  height: 100%;
+  color: white;
+  margin-bottom: 100px;
+}
+
+header .header-logo {
+  float: left;
+  padding-bottom: 10px;
+}
+
+header .header-logo .header-logo-icon {
+  float: left;
+  font-size: 50px;
+  margin-right: 10px;
+  padding-top: 25px;
+}
+
+header .header-logo .header-logo-text {
+  float: right;
+  margin-left: 10px;
+  padding-top: 10px;
+  font-family: arial black;
+}
+
+header .header-menubar {
+  padding-top: 20px;
+  float: right;
+  font-size: 40px;
+}
+
+header .header-menu-list {
+  background-color: black;
+  display: none;
+  text-align: right;
+}
+
+header .header-menu-list #menu-close {
+  font-size: 15px;
+}
+
+header .header-menu-list li {
+  line-height: 200%;
+  font-size: 24px;
+}
+
+header .header-menu-list li i {
+  padding-right: 10px;
+}
+
+.news-wrapper .news {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.news-wrapper .news .news1 {
+  width: 60%;
+}
+
+.news-wrapper .news .news1 img {
+  width: 90%;
+}
+
+.news-wrapper .news .news2 {
+  width: 40%;
+}
+
+.news-wrapper .news .news2 .text {
+  width: 70%;
+}
+
+.news-wrapper .news .news2 .pickUp-btn {
+  border: 2px solid black;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.news-wrapper .news .news2 .pickUp-btn i {
+  padding: 3px;
+}
+
+.news-wrapper .news .news2 .pickUp-btn:hover {
+  background-color: black;
+  color: white;
+}
+
+.menu-wrapper .fa-book-open {
+  padding: 5px;
+  color: gray;
+}
+
+.menu-wrapper .menu-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.menu-wrapper .menu-items .menu-item {
+  width: 24%;
+  margin-bottom: 50px;
+  height: 100%;
+  border: 1px solid gray;
+  text-align: center;
+}
+
+.menu-wrapper .menu-items .menu-item .menu-item-image {
+  width: 100%;
+  height: 200px;
+}
+
+.menu-wrapper .menu-items .menu-item:hover {
+  border: 2px solid black;
+}
+
+.menu-wrapper .submit {
+  width: 180px;
+  height: 30px;
+}
+
+footer {
+  background-color: black;
+  height: 100％;
+}
+
+footer h4 {
+  text-align: center;
+  padding: 30px;
+  margin: 0 auto;
+  color: white;
+}
+
+.heading {
+  text-align: center;
+}
+
+.order-item {
+  text-align: center;
+}
+
+.confirm {
+  text-align: center;
+  border-top: 1px solid gray;
+}
+
+.confirm .confirm-btn {
+  border: 1px solid lightgray;
+  padding: 5px;
+  background: lightgray;
+  border-bottom: solid 4px gray;
+  border-radius: 3px;
+}
+
+.confirm .confirm-btn:active {
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);
+  -webkit-box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+  border-bottom: none;
+}
+
+.detail-wrapper {
+  text-align: center;
+}
+
+.detail-wrapper .detail-image {
+  width: 50%;
+}
+
+.detail-wrapper .back {
+  padding: 5px;
+  border: 2px solid black;
+  color: black;
+}
+/*# sourceMappingURL=styles.css.map */

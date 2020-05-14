@@ -1,0 +1,40 @@
+@media (max-width: 1000px){
+
+}
+
+@media  (max-width: 670px){
+  .cotainer{
+    width: 90%;
+  }
+  .news-wrapper{
+    text-align:center;
+  .news{
+    flex-direction: column;
+    text-align:center;
+    .news1{
+      width: 100%;
+    }
+    .news2{
+      width: 100%;
+      .text{
+        width: 100%;
+      }
+    }
+  }
+  
+}
+
+.menu-wrapper{
+  text-align:center;
+  .menu-items{
+    flex-direction: column;
+    .menu-item{
+      width: 100%;
+    }
+  }
+}
+
+
+
+}
+
